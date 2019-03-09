@@ -3551,6 +3551,11 @@ footer .social-links a {
     -webkit-transition: all .3s ease-in-out;
     transition: all .3s ease-in-out
 }
+footer .social-links i {
+    /* display: inline-block; */
+    /* color: yellow; */
+    /* object-fit: contain; */
+}
 footer .social-links a:hover {
     color: #fff;
     background-color: rgba(0, 0, 0, 0.3);
@@ -3843,7 +3848,7 @@ footer .social-links a:hover {
     line-height: 1.8;
     font-size: 1.4rem
 }
-#me i.fa {
+#me i.fa, i.fab, i.fas {
     font-size: 5.0rem
 }
 #work {
